@@ -1,0 +1,18 @@
+git status --short --branch:
+## master
+?? "\320\235\320\220\320\247\320\235\320\230\320\242\320\225_\320\227\320\224\320\225\320\241\320\254.txt"
+?? "\320\236\320\242\320\247\320\201\320\242.md"
+
+git log --oneline --graph --decorate --all:
+*   2f09b87 (HEAD -> master) Resolved conflict in feature-a.txt
+|\  
+| * c0fbc38 Updated feature-a.txt
+* | 262c8fe Updated feature-a.txt in master
+* |   c2158a4 Merge branch 'feature-b'
+|\ \  
+| |/  
+|/|   
+| * 2bac5a4 Added feature-b.txt
+* | b519d96 Added feature-a.txt
+|/  
+* 82f5927 Initial commit
